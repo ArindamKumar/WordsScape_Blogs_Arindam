@@ -6,9 +6,13 @@ It displays all the posts on the home page, wherein you can create new posts, as
 _In order to set this up on your local system, you must have node js installed on your computer **[preferably the latest LTS version, 22.13.0]**_
 
 After pulling the repository on to your local computer, install the required node modules by running the `npm install` command.
-After you are done, initialize the node packages by running `npm init -y`. It will create a `package.json` file.
+
+After you are done, initialize the node packages by running `npm init -y`.
+
+It will create a `package.json` file.
 
 Install `nodemon` on your system, globally, by running `npm install -g nodemon`.
+
 _It is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected._
 _[Visit `https://www.npmjs.com/package/nodemon` for more information]_
 
