@@ -1,0 +1,297 @@
+.flex-container svg{
+	display: inline-block;
+	height: 1.7rem;
+	width: 1.7rem;
+	vertical-align: middle;
+}
+
+svg.bi-substack{
+		margin: 0.5rem;
+}
+
+.author{
+	display: inline-block;
+	font-size: 1.5rem;
+}
+
+img{
+	margin-bottom: 1rem;
+}
+.flex-container > h1{
+	display: inline-block;
+	color: white;
+}
+
+ul > li{
+	list-style-image: url('/images/substack.svg');
+}
+
+ul ul > li{
+	list-style-image: none;
+}
+
+ul ol > li{
+	list-style-image: none;
+}
+
+h1 > span{
+	color: white;
+}
+
+img{
+	display: inline-block;
+}
+
+form.edit{
+	min-height: 30rem;
+}
+
+form.new{
+	min-height: 30rem;
+}
+
+input:placeholder-shown{
+	font-style: italic;
+}
+
+textarea:placeholder-shown{
+	font-style: italic;
+}
+
+input[name="imageRequired"]{
+	width: 1rem;
+	height: 1rem;
+	display: inline-block;
+}
+
+a > button.new{
+	margin: 1rem;
+	color: white;
+	border-color: white;
+	border-radius: 10px;
+	background: linear-gradient(300deg,deepskyblue,darkviolet,#c70000);
+	background-size: 100% 100%;
+	animation: gradient-animation 9s ease infinite;
+}
+
+p{
+	font-size: 1rem;
+}
+
+li{
+	font-size: 1rem;
+}
+
+button.modify-post{
+	border: 0;
+	margin: 0.5rem;
+}
+
+button.done{
+	display: inline-block;
+	position: relative;
+	
+}
+
+.btn{
+	display: inline-block !important;
+	font-size: 0.8rem;
+	margin: 0.3rem;
+}
+
+.btn.btn-danger{
+	font-size: 0.9rem;
+}
+
+.btn svg{
+	height: 1rem;
+	width: 1rem;
+}
+
+.new button{
+	margin: 0;
+}
+
+.modify-post{
+	width: 1rem;
+	height: 1rem;
+}
+
+.flex-container{
+	margin: 0;
+	padding: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	row-gap: 2rem;
+}
+
+.main-container{
+	width: 50%;
+	position: relative;
+	left: 25%;
+	background: white;
+	border-radius: 1rem;
+	padding: 1rem;
+}
+
+.home.container{
+	width: 80%;
+	position: relative;
+	left: 10%;
+	display: grid;
+}
+@media (min-width: 600px) and (max-width: 1050px){
+	.main-container{
+		width: 60%;
+		left: 20%;
+	}
+}
+
+@media (max-width: 600px){
+	.main-container{
+		width: 70%;
+		left: 15%;
+	}
+}
+/*input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 10% !important;
+    border: 1px solid #ccc;
+    border-radius: 0.6rem;
+    margin: 1rem;
+}*/
+
+body{
+		background: linear-gradient(300deg,deepskyblue,darkviolet,#c70000);
+  	background-size: 180% 180%;
+  	animation: gradient-animation 3s ease infinite;
+}
+
+	/*background: linear-gradient(300deg,deepskyblue,darkviolet,#c70000);
+  	background-size: 180% 180%;
+  	animation: gradient-animation 9s ease infinite;*/
+  
+/*body {
+--u: 0.375em;
+--s: calc(50 * var(--u));
+--d: calc(0.25 * var(--s));
+--l0: calc(100% - 1px), #fff;
+--l1: 0% 25%, #0000 0% 50%;
+--g: repeating-conic-gradient(#fff var(--l1));
+background: 
+var(--g), 
+radial-gradient(closest-side, transparent var(--l0)), 
+linear-gradient(90deg, #0000 0 25%, currentcolor 0 75%, #d6af46 0), 
+repeating-conic-gradient(#88b6b4 var(--l1)), 
+var(--g), 
+radial-gradient(closest-side, currentcolor var(--l0));
+background-size: calc(2 * var(--d)) calc(2 * var(--d)), var(--d) var(--d), calc(0.5 * var(--s)), var(--s) var(--s), calc(2 * var(--u)) calc(2 * var(--u)), var(--u) var(--u);
+color: #31334a;
+}*/
+
+/*body {
+    background-color: #eae9e9;
+opacity: 0.8;
+background-image:  linear-gradient(30deg, #852af9 12%, transparent 12.5%, transparent 87%, #852af9 87.5%, #852af9), linear-gradient(150deg, #852af9 12%, transparent 12.5%, transparent 87%, #852af9 87.5%, #852af9), linear-gradient(30deg, #852af9 12%, transparent 12.5%, transparent 87%, #852af9 87.5%, #852af9), linear-gradient(150deg, #852af9 12%, transparent 12.5%, transparent 87%, #852af9 87.5%, #852af9), linear-gradient(60deg, #852af977 25%, transparent 25.5%, transparent 75%, #852af977 75%, #852af977), linear-gradient(60deg, #852af977 25%, transparent 25.5%, transparent 75%, #852af977 75%, #852af977);
+background-size: 80px 140px;
+background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}*/
+
+/*:root {
+    --test-color: blue;
+}*/
+
+/*body {
+ 	background: linear-gradient(300deg,#f3f33f,#fa2424);
+  	background-size: 120% 120%;
+  	animation: gradient-animation 3s ease infinite;
+  	opacity: 0.9;
+}*/
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.footer-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: white;
+	padding: 1rem;
+}
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.marcellus-regular {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 400 to 900*/
+
+.cinzel-regular {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 300 to 700*/
+
+.quicksand-regular {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.quicksand-bold {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cormorant-garamond-regular {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-garamond-semibold {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: normal;
+}
