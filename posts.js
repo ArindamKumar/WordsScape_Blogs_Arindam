@@ -31,7 +31,7 @@ The add-on applies a label, titled Extracted, to all the emails that have been p
 
 Internally, it is a Google Script that uses the magic of Regular Expressions to pull email addresses from Gmail. The extracted email addresses are saved in a Google spreadsheet that can later be exported to Google Contacts or Outlook.</p><br/><br/>`,
 	author: `<p class="author">Amit Agarwal</p>`,
-	image: `https://www.labnol.org/static/312630bcb464eced76a1909fadfa5ee9/7b5cb/gmail-email-address-extractor.png`,
+	image: `https://www.labnol.org/_astro/gmail-email-address-extractor.Bhd2EKRB_nuh7Y.webp`,
 	},
 {
 	id: 2,
